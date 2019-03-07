@@ -1,1 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('../Style/Fonts/Precious.ttf');
+
+
+@font-face {
+    font-family: Precious;
+    src: url(../Style/Fonts/Precious.ttf);
+  }
