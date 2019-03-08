@@ -5,6 +5,7 @@
     width:300px;
     padding:0px;
     margin:0px;
+  
 }
 .output{
     width:100%;
@@ -41,14 +42,15 @@ input[type=button]{
 
 .keypad{
 display: none;
-width: 100%;
+width: 50%;
 height: 100%;
 align-content: center;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 font-family: "Heebo";
+border-color:wheat
 }
-.keypad h2{
+.identify h2{
 color:#a47c4a;
 }

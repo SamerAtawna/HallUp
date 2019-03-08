@@ -24,35 +24,51 @@
               <div class="mealBtn">
                     <a href="#" onclick="gotoMeals()" class="BUTTON_HCW">בחירת מנה</a></div>
      
+
+        <div class="identify">
       <div class="keypad">
-          <h2>נא להזין מספר פלאפון</h2>
+          <h2>  מספר פלאפון</h2>
         <div class="containerKeypad">
                 <div class="output">
                     <input type=text id="phoneNum">
                 </div>
                 <div class="row1">
-                    <input type=button value=1 onclick="addNum(this.value)">
-                    <input type=button value=2 onclick="addNum(this.value)">
-                    <input type=button value=3 onclick="addNum(this.value)">
+                    <input type=button value=1 onclick="keypad.addNum(this.value)">
+                    <input type=button value=2 onclick="keypad.addNum(this.value)">
+                    <input type=button value=3 onclick="keypad.addNum(this.value)">
                 </div>
                 <div class="row2">
-                    <input type=button value=4 onclick="addNum(this.value)">
-                    <input type=button value=5 onclick="addNum(this.value)">
-                    <input type=button value=6 onclick="addNum(this.value)">
+                    <input type=button value=4 onclick="keypad.addNum(this.value)">
+                    <input type=button value=5 onclick="keypad.addNum(this.value)">
+                    <input type=button value=6 onclick="keypad.addNum(this.value)">
                 </div>
                 <div class="row3">
-                    <input type=button value=7 onclick="addNum(this.value)">
-                    <input type=button value=8 onclick="addNum(this.value)">
-                    <input type=button value=9 onclick="addNum(this.value)">
+                    <input type=button value=7 onclick="keypad.addNum(this.value)">
+                    <input type=button value=8 onclick="keypad.addNum(this.value)">
+                    <input type=button value=9 onclick="keypad.addNum(this.value)">
                 </div>
                 <div class="row4">
-                    <input type=button value="איפוס" onclick="clearKeypad()">
-                    <input type=button value=0 onclick="addNum(this.value)">
-                    <input type=button value="מחיקה" onclick="delNum()">
+                    <input type=button value="איפוס" onclick="keypad.clearKeypad()">
+                    <input type=button value=0 onclick="keypad.addNum(this.value)">
+                    <input type=button value="מחיקה" onclick="keypad.delNum()">
                 </div>
         
             </div>
+    
         </div>
+<div class="devider">
+      או
+</div>
+        <div class="byName">
+            <h2>הקלד שם</h2>
+            <div class="nameEnter">
+                <input type=text id="name">
+              
+            </div>
+        </div>
+    </div><div id="keyb">
+
+    </div>
                </div>
         </div>
         
