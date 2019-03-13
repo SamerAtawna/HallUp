@@ -1,0 +1,171 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.flip-2-hor-top-1 {
+animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+
+.main{
+background-image:url("../images/MainBackground.svg");
+background-size: 100%;
+width:100%;
+height:100vh;
+box-sizing: border-box;
+margin:0px;
+background-position: 100% 0%;
+animation: movWallpaper 1s;
+animation-fill-mode: forwards;
+animation-play-state: paused;
+
+
+
+
+}
+.modal{
+/* border: 1px solid #9e7645;*/
+position: absolute;
+left: 25%;
+width: 49.9%;
+height: 100%;
+box-shadow: 0px -20px 20px 8px #080808;
+border-bottom: none;
+background-image: url("../images/ModalBackground.svg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+.coupleNames{
+color: white;
+font-size: 90px;
+background-image: url("../images/WhiteFlower.svg");
+height: 500px;
+
+width: 100%;
+display: flex;
+justify-content: center;
+font-family: "Guttman Yad";
+background-repeat: no-repeat;
+background-position: center;
+font-family: "Precious";
+}
+
+.mealBtn{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+height:42%;
+justify-content: center;
+
+}
+.BUTTON_HCW{
+background: #F6B111;
+background-image: linear-gradient(to bottom, #F6B111, #D05213);
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #FFFFFF;
+font-family: "Heebo";
+font-size: 38px;
+font-weight: 900;
+padding-right: 50px ;padding-left: 50px ;
+box-shadow: 1px 1px 20px 0px #000000;
+-webkit-box-shadow: 1px 1px 20px 0px #000000;
+-moz-box-shadow: 1px 1px 20px 0px #000000;
+text-shadow: 1px 1px 20px #000000;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+}
+.identify{
+    display: none;
+  
+    color: white;
+    align-items: center;
+    margin-top: 30vh;
+}
+.byName{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Heebo';
+    align-self: self-start;
+}
+.nameEnter input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: rgba(253, 253, 227, 0.28);
+    border-radius: 5px;
+    color: goldenrod;
+    text-align: center;
+}
+.nameEnter{
+    width:65%;
+}
+.devider{
+    background: url(../images/devider.svg);
+    width: 100px;
+    height: 300px;
+    background-repeat: no-repeat;
+    /* border: 1px solid; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 43px;
+    font-family: 'Heebo';
+    color: wheat;
+}
+#keyb{
+    width: 100%;
+    height: 200px;
+    display: none;
+    flex-wrap: wrap;
+}
+[class^='keyP']{
+    border: 1px solid wheat;
+    color: wheat;
+    height: 42px;
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Heebo';
+    animation: animateKey 0.5s;
+    animation-play-state: paused;
+
+}
+
+.k1, .k2, .k3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+.backspace{
+    border: 1px solid wheat;
+    color: wheat;
+    height: 42px;
+    width: 110px;
+    margin: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Heebo';
+    animation: animateKey 0.5s;
+    animation-play-state: paused;
+    line-height: 1;
+}
