@@ -3,25 +3,27 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml"  lang="he">
+
 <head runat="server">
     <title>hallUp</title>
       <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
- 
     <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="./Style/Animations.css">
-  <link rel="stylesheet" type="text/css" href="./Style/Imports.css">
-  <link rel="stylesheet" type="text/css" href="./Style/keypad.css">
-  <link rel="stylesheet" type="text/css" href="./Style/style.css">
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" type="text/css" href="./Style/Animations.css">
+    <link rel="stylesheet" type="text/css" href="./Style/Imports.css">
+    <link rel="stylesheet" type="text/css" href="./Style/keypad.css">
+    <link rel="stylesheet" type="text/css" href="./Style/style.css">
 </head>
+
+
 <body>
     <form id="form1" runat="server">
     <div class="main">
-   
         <div class="modal">
             <div class="coupleNames">
                 Yosi <br>Shiran
