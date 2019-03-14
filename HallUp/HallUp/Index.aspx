@@ -16,7 +16,7 @@
       <link rel="stylesheet" type="text/css" href="./Style/style.css">
    </head>
    <body>
-      <form id="form1" runat="server">
+      <form id="AdminForm" runat="server">
          <div class="main">
             <div class="modal">
                <div class="coupleNames">
