@@ -19,13 +19,13 @@
       <form id="AdminForm" runat="server">
          <div class="main">
             <div class="modal">
-               <div class="coupleNames">
+               <div class="coupleNames"> <!--First View Begin -->
                   Yosi <br>Shiran
                </div>
                <div class="mealBtn">
                   <a href="#" onclick="gotoMeals()" class="BUTTON_HCW">בחירת מנה</a>
-               </div>
-               <div class="identify">
+               </div>         <!--First View End -->
+               <div class="identify"> <!--Second View Begin -->
                   <div class="keypad">
                      <h2>  מספר פלאפון</h2>
                      <div class="containerKeypad">
@@ -33,24 +33,24 @@
                            <asp:TextBox ID="phoneNum" runat="server"></asp:TextBox>
                         </div>
                         <div class="row1">
-                           <input type=button value=1 onclick="keypad.addNum(this.value)">
-                           <input type=button value=2 onclick="keypad.addNum(this.value)">
-                           <input type=button value=3 onclick="keypad.addNum(this.value)">
+                           <input type=button value=1 onclick="keypad.addNum(this.value)" />
+                           <input type=button value=2 onclick="keypad.addNum(this.value)" />
+                           <input type=button value=3 onclick="keypad.addNum(this.value)" />
                         </div>
                         <div class="row2">
-                           <input type=button value=4 onclick="keypad.addNum(this.value)">
-                           <input type=button value=5 onclick="keypad.addNum(this.value)">
-                           <input type=button value=6 onclick="keypad.addNum(this.value)">
+                           <input type=button value=4 onclick="keypad.addNum(this.value)" />
+                           <input type=button value=5 onclick="keypad.addNum(this.value)" />
+                           <input type=button value=6 onclick="keypad.addNum(this.value)" />
                         </div>
                         <div class="row3">
-                           <input type=button value=7 onclick="keypad.addNum(this.value)">
-                           <input type=button value=8 onclick="keypad.addNum(this.value)">
-                           <input type=button value=9 onclick="keypad.addNum(this.value)">
+                           <input type=button value=7 onclick="keypad.addNum(this.value)" />
+                           <input type=button value=8 onclick="keypad.addNum(this.value)" />
+                           <input type=button value=9 onclick="keypad.addNum(this.value)" />
                         </div>
                         <div class="row4">
-                           <input type=button value="איפוס" onclick="keypad.clearKeypad()">
-                           <input type=button value=0 onclick="keypad.addNum(this.value)">
-                           <input type=button value="מחיקה" onclick="keypad.delNum()">
+                           <input type=button value="איפוס" onclick="keypad.clearKeypad()" />
+                           <input type=button value=0 onclick="keypad.addNum(this.value)" />
+                           <input type=button value="מחיקה" onclick="keypad.delNum()" />
                         </div>
                      </div>
                   </div>
@@ -64,9 +64,8 @@
                      </div>
                   </div>
                </div>
-               <div id="keyb">
-               </div>
-            </div>
+               <div id="keyb"></div>
+            </div> <!--Second View End -->
          </div>
          <script src="./Scripts/Functions.js"></script>
          <script src="./Scripts/Transitions.js"></script>
