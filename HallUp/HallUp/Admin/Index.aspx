@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,25 +26,21 @@
             <div class="inputDiv">
                 <table>
                     <tr>
-                     
                         <td><asp:TextBox ID="userName" class="form-control"  runat="server" Font-Size="20"></asp:TextBox></td>
-                           <td>שם משתמש</td>
+                        <td>שם משתמש</td>
                     </tr>
                     <tr>
-                           
-                            <td><asp:TextBox ID="password" class="form-control"  runat="server" Font-Size="20" AutoComplete Type="password"></asp:TextBox></td>
-                         <td>סיסמא</td>
-                        </tr>
-                        <tr>
-                        
-                            <td id="submitBtn">
-                                <input type=button class="btn btn-danger" value="כניסה">
-                            </td>
-                                <td></td>
-                        </tr>
+                        <td><asp:TextBox ID="password" class="form-control"  runat="server" Font-Size="20" AutoComplete Type="password"></asp:TextBox></td>
+                        <td>סיסמא</td>
+                    </tr>
+                    <tr>
+                        <td id="submitBtn">
+                            <input type=button class="btn btn-danger" value="כניסה">
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
             </div>
-            
-
         </div>
     </div>
     </form>
